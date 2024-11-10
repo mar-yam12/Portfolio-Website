@@ -9,7 +9,7 @@ const HeroSection = () => {
     <div className="min-h-screen bg-cover bg-center bg-fixed flex justify-evenly text-purple-200 px-4 sm:px-6 lg:px-8 "
     style={{ backgroundImage: "url('/bg3.jpg')" }}>
 
-      <div className='p-10 m-10'>
+      <div className='p-10 m-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
       <Image 
             src="/profile.jpg"
             alt="logo"
